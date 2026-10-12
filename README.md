@@ -13,3 +13,10 @@ Open `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on** → p
 
 ## How it works
 A tiny content script (`content.js`) makes right-button mouse/pointer events report `altKey = true`, so chess.com draws with its Alt color. No build step, no dependencies.
+
+## Downloads
+
+- `releases/chess-blue-draw.zip`: blue (Alt) color
+- `releases/chess-green-draw.zip`: green (Shift) color
+
+Unzip one and load the folder with Load unpacked. Use only one at a time.
