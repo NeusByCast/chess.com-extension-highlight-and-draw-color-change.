@@ -1,0 +1,1 @@
+# chess.com-extension-highlight-and-draw-color-change.
