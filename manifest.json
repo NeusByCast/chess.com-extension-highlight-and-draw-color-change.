@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com Blue Right-Click Draw",
+  "version": "1.0.0",
+  "description": "Plain right-click highlights and arrows on chess.com use the blue (Alt) color.",
+  "content_scripts": [{
+    "matches": ["https://www.chess.com/*", "https://chess.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_start",
+    "world": "MAIN",
+    "all_frames": true
+  }],
+  "browser_specific_settings": { "gecko": { "id": "chess-blue-draw@neusbycast", "strict_min_version": "128.0" } }
+}
